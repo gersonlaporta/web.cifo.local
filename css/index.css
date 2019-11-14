@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+
+body{
+	padding-top: 56px;
+}
+
+nav.navbar .navbar-brand > img{
+	margin:0;
+	padding:0;	
+	height: 56px;	
+}
+nav{
+	margin:0 px;
+	padding:0 px;	
+	height: 56px;
+	
+}
+
+
+nav > div > ul > li > a:hover {
+  background-color: #77B41E;
+  color: black;
+  border-radius: 5px;
+}
+
+.bg-light{
+	background-color: #00ace6!important;
+}
+.nav-link,.navbar-brand{
+	color: white!important;
+}
+.navbar-brand{
+	/*padding-left: 150px;*/
+	font-size: 16px;
+}
+.breadcrumb {
+
+	background-color: transparent;
+}
+nav.breadcrumb > i{
+	border-radius: 50%;
+	text-align: right;	
+}
+.icones {
+	float: right;
+	margin-top: 10px;
+}
+.dropdown-menu{
+	left: -65px;
+}
+
+footer{
+background-color:#00ace6;
+}
+footer ul {
+	list-style: none;
+	padding-left: 0px; 
+}
+footer ul li a{
+	color: white;
+	opacity: 0.5;
+}
+footer span, footer p {
+	color: white;
+}
+footer  p >span {
+	opacity: 0.5;
+}
+
+.card-text {
+	color: black;
+}
+a span .fa-circle:before{
+	content: none;
+}
+.btn-primary{
+	background-color:#00ace6;
+	border: none;
+}
+
+@media  (max-width: 475px){ /*a partir d'aqui el breadcrump es queda per darrere de les icones, per tant es fa això*/
+	nav .breadcrumb {
+		display: none;
+	}
+}
+.list-group-item {
+	background-color: transparent;
+	border: none;
+}
+div .col-lg-7 {
+	padding: 0!important;
+}
+footer {
+	margin-top: 20px;
+}
+#accesCentre * {
+	color : black!important;
+}
